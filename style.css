@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+}
+html{
+    max-width: 100vw;
+}
+body {
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.jpg');
+    height: 100vh;
+    max-width: 100vw;
+    background: #3e4144;
+    font-family: "Open Sans", sans-serif;
+}
+p.foot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+.login-title{
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+
+}
+h1.login-title {
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.login-input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.error{
+    color: red;
+    text-align: center;
+}
