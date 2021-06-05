@@ -9,7 +9,7 @@
 <body>
     <h1> Hello World </h1>
     <?php
-    echo "This is made using phppppppp"
+    echo "This is made using phppppppp and used just to test the portal."
     ?>
     
 </body>
